@@ -1,9 +1,13 @@
 import { TouchableOpacity, StyleSheet, Text } from "react-native";
 import React from "react";
 
-const MainButton = ({ title }) => {
+const MainButton = ({ title, bgColor }) => {
+  const buttonStyle = StyleSheet.flatten([
+    styles.mainButton,
+    { backgroundColor: bgColor },
+  ]);
   return (
-    <TouchableOpacity style={styles.mainButton}>
+    <TouchableOpacity style={buttonStyle}>
       <Text style={styles.title}>{title}</Text>
     </TouchableOpacity>
   );
@@ -11,7 +15,6 @@ const MainButton = ({ title }) => {
 
 const styles = StyleSheet.create({
   mainButton: {
-    backgroundColor: "purple",
     padding: 10,
     borderRadius: 10,
   },

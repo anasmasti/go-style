@@ -14,7 +14,7 @@ const MainCard = () => {
       </View>
       <View style={style.content}>
         <Text style={style.title}>Winter Clothes</Text>
-        <MainBadge title="Winter" color="red" />
+        <MainBadge title="Winter" color="#42abf3" />
       </View>
     </View>
   );
@@ -29,18 +29,18 @@ const style = StyleSheet.create({
   cover: {
     width: 150,
     height: 80,
-    marginHorizontal: 5,
+    marginHorizontal: 8,
     backgroundColor: "black",
     borderRadius: 10,
     opacity: 0.9,
     resizeMode: "cover",
   },
   content: {
-    backgroundColor: "#eee",
+    backgroundColor: "#f1f1f1",
     borderRadius: 8,
     width: 130,
     padding: 8,
-    marginHorizontal: 5,
+    marginHorizontal: 8,
     marginTop: -20,
   },
   title: {

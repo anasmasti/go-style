@@ -1,5 +1,6 @@
 import { StyleSheet, SafeAreaView } from "react-native";
 import Header from "../components/home/Header";
+import Seasons from "../components/home/Seasons";
 import Trend from "../components/home/Trend";
 
 const Home = () => {
@@ -7,6 +8,7 @@ const Home = () => {
     <SafeAreaView style={styles.headerSection}>
       <Header />
       <Trend />
+      <Seasons />
     </SafeAreaView>
   );
 };

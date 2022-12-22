@@ -2,11 +2,10 @@ import { View, ScrollView } from "react-native";
 import MainTitle from "../shared/MainTitle";
 import MainCard from "../shared/MainCard";
 
-const Seasons = () => {
+const Seasons = ({ title }) => {
   return (
     <View>
-      <MainTitle title="Seasons" />
-
+      <MainTitle title={title} />
       <ScrollView horizontal showsHorizontalScrollIndicator={false}>
         <MainCard type="image" />
         <MainCard type="image" />

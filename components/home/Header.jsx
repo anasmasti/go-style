@@ -7,11 +7,9 @@ const heartIcon = <Icon name="heart-alt" size={25} color="#ff5c88" />;
 
 const Header = () => {
   return (
-    <View>
-      <View style={styles.header}>
-        <Logo />
-        <MainButton title={heartIcon} />
-      </View>
+    <View style={styles.header}>
+      <Logo />
+      <MainButton title={heartIcon} />
     </View>
   );
 };

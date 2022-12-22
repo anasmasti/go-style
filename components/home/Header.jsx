@@ -3,7 +3,7 @@ import Logo from "../shared/Logo";
 import MainButton from "../shared/MainButton";
 import Icon from "react-native-vector-icons/Fontisto";
 
-const heartIcon = <Icon name="heart-alt" size={30} color="#ff5c88" />;
+const heartIcon = <Icon name="heart-alt" size={25} color="#ff5c88" />;
 
 const Header = () => {
   return (

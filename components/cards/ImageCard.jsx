@@ -1,7 +1,6 @@
-import { View, Text, ImageBackground, StyleSheet } from "react-native";
-import React from "react";
+import { Text, ImageBackground, StyleSheet } from "react-native";
 
-const SeasonsCard = () => {
+const ImageCard = () => {
   return (
     <ImageBackground
       source={{
@@ -33,4 +32,4 @@ const style = StyleSheet.create({
   },
 });
 
-export default SeasonsCard;
+export default ImageCard;

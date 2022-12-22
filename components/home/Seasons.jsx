@@ -1,6 +1,6 @@
-import { View, Text, ScrollView } from "react-native";
+import { View, ScrollView } from "react-native";
 import MainTitle from "../shared/MainTitle";
-import SeasonsCard from "./seasons/SeasonsCard";
+import MainCard from "../shared/MainCard";
 
 const Seasons = () => {
   return (
@@ -8,10 +8,9 @@ const Seasons = () => {
       <MainTitle title="Seasons" />
 
       <ScrollView horizontal showsHorizontalScrollIndicator={false}>
-        <SeasonsCard />
-        <SeasonsCard />
-        <SeasonsCard />
-        <SeasonsCard />
+        <MainCard type="image" />
+        <MainCard type="image" />
+        <MainCard type="image" />
       </ScrollView>
     </View>
   );

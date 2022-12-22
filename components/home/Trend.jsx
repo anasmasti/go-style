@@ -8,7 +8,7 @@ const Trend = () => {
       <MainTitle title="Best Of Today" />
       <ScrollView horizontal showsHorizontalScrollIndicator={false}>
         {[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12, 14, 17, 45].map((item) => (
-          <MainCard key={item} />
+          <MainCard key={item} type="regular" />
         ))}
       </ScrollView>
     </View>
